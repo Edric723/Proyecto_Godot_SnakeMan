@@ -8,4 +8,4 @@ script = ExtResource("1_m54tv")
 [node name="Polygon2D" type="Polygon2D" parent="."]
 scale = Vector2(1.00781, 0.996944)
 color = Color(1, 0.54171, 0.250756, 1)
-polygon = PackedVector2Array(0, 0, 31.7519, 0, 31.7519, 32.0981, 0, 32.0981)
+polygon = PackedVector2Array(0, 0, 63.5039, 0, 63.5039, 64.1962, 0, 64.1962)

@@ -1,0 +1,57 @@
+[gd_scene load_steps=2 format=3 uid="uid://ccpvyabbc1aif"]
+
+[ext_resource type="Script" uid="uid://cqdt2voydg3ws" path="res://src/obtenible.gd" id="1_jlesv"]
+
+[node name="Obtenible" type="Node2D"]
+script = ExtResource("1_jlesv")
+
+[node name="Polygon2D-Manzana" type="Polygon2D" parent="."]
+color = Color(0.75031, 0.0674321, 1.92523e-07, 1)
+polygon = PackedVector2Array(16, 64, 48, 64, 48, 56, 56, 56, 56, 48, 64, 48, 64, 24, 56, 24, 56, 16, 32.0865, 16, 8, 16, 8, 24, 0, 24, 0, 48, 8, 48, 8, 56, 16, 56)
+
+[node name="Polygon2D-Sombreado1" type="Polygon2D" parent="."]
+color = Color(0.430901, 0.154067, 0.222232, 1)
+polygon = PackedVector2Array(48, 64, 48, 56, 40, 56, 32, 56, 24, 56, 24, 48, 16, 48, 16, 40, 8, 40, 8, 24, 16, 24, 16, 16, 8, 16, 8, 24, 0, 24, 0, 48, 8, 48, 8, 56, 16, 56, 16, 64)
+
+[node name="Polygon2D-Hoja" type="Polygon2D" parent="."]
+color = Color(8.18223e-07, 0.729709, 0.0428252, 1)
+polygon = PackedVector2Array(32, 16, 32, 8, 40, 8, 40, 0, 48, 0, 48, 8, 40, 8, 40, 16)
+
+[node name="Polygon2D-Cabo1" type="Polygon2D" parent="."]
+position = Vector2(0, -8)
+color = Color(0.317647, 0.00784314, 0, 0.513726)
+polygon = PackedVector2Array(24, 16, 24, 8, 32, 8, 32, 8, 32, 16)
+
+[node name="Polygon2D-Cabo2" type="Polygon2D" parent="."]
+color = Color(0.336924, 0.00759089, 1.3236e-07, 1)
+polygon = PackedVector2Array(24, 16, 24, 8, 32, 8, 32, 8, 32, 16)
+
+[node name="Polygon2D-Luz1" type="Polygon2D" parent="."]
+position = Vector2(-40, -64)
+color = Color(0.999999, 0.749409, 0.998372, 1)
+polygon = PackedVector2Array(88, 88, 96, 88, 96, 80, 88, 80)
+
+[node name="Polygon2D-Luz2" type="Polygon2D" parent="."]
+position = Vector2(-32, -56)
+color = Color(1, 0.74902, 1, 1)
+polygon = PackedVector2Array(88, 88, 96, 88, 96, 80, 88, 80)
+
+[node name="Polygon2D-Luz3" type="Polygon2D" parent="."]
+position = Vector2(-32, -48)
+color = Color(1, 0.74902, 1, 1)
+polygon = PackedVector2Array(88, 88, 96, 88, 96, 80, 88, 80)
+
+[node name="Polygon2D-Sombra2-3" type="Polygon2D" parent="."]
+position = Vector2(-88, -40)
+color = Color(0.368627, 0.027451, 0.0941176, 1)
+polygon = PackedVector2Array(88, 88, 96, 88, 96, 80, 88, 80)
+
+[node name="Polygon2D-Sombra2-2" type="Polygon2D" parent="."]
+position = Vector2(-80, -32)
+color = Color(0.368627, 0.027451, 0.0941176, 1)
+polygon = PackedVector2Array(88, 88, 96, 88, 96, 80, 88, 80)
+
+[node name="Polygon2D-Sombra2-1" type="Polygon2D" parent="."]
+position = Vector2(-72, -24)
+color = Color(0.368627, 0.027451, 0.0941176, 1)
+polygon = PackedVector2Array(88, 88, 96, 88, 96, 80, 88, 80)
