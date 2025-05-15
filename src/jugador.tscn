@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://r7kbilud8l3"]
+
+[ext_resource type="Script" uid="uid://dti7l77w872dk" path="res://src/jugador.gd" id="1_m54tv"]
+
+[node name="jugador" type="Node2D"]
+script = ExtResource("1_m54tv")
