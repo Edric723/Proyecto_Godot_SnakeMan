@@ -1,3 +1,7 @@
-[gd_scene format=3 uid="uid://dhja42gb3gt2e"]
+[gd_scene load_steps=2 format=3 uid="uid://dhja42gb3gt2e"]
+
+[ext_resource type="PackedScene" uid="uid://r7kbilud8l3" path="res://src/jugador.tscn" id="1_6p120"]
 
 [node name="Mapa(tablero)" type="Node2D"]
+
+[node name="jugador" parent="." instance=ExtResource("1_6p120")]
