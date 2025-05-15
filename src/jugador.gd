@@ -63,8 +63,16 @@ func mover_jugador(direccion_x:int, direccion_y:int) -> void:
 		historial_movimiento.append(nueva_pos)
 		print("Historial:", historial_movimiento)
 	
+	verificar_obtenible()
 	print ("Nueva posición:" , nueva_pos)
 	
+func verificar_obtenible() -> void:
+	# Verificar colisión con objetos sostenibles
+	var obtenibles = get_tree().get_nodes_in_group("obtenibles")
+	
+	for objetos in obtenibles:
+		if objetos.position == position:
+			objetos.recolectar()
 	
 	
 	

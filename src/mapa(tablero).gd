@@ -17,7 +17,12 @@ func instanciar_obtenible():
 	objeto.position = posicion
 	add_child(objeto)
 
-
+	objeto.recolectando.connect(_on_recolectable_recogido)
+	
+func _on_recolectable_recogido():
+	print("Recolectable obtenido, generado uno nuevo...")
+	instanciar_obtenible()
+	
 func generar_ubicacion_libre () -> Vector2:
 	var celda_res = jugador.celda_res
 	var max_x = get_viewport_rect().size.x / celda_res
@@ -33,5 +38,6 @@ func generar_ubicacion_libre () -> Vector2:
 
 	
 	return nueva_posicion * celda_res
+
 	
 	
